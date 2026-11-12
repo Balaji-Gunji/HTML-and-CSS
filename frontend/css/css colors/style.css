@@ -1,0 +1,98 @@
+/* Body */
+body {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+/* Header - HEX Color */
+header {
+    background-color: #102f56;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFD700;
+}
+.video-section {
+    background-color: lightblue;
+    color: navy;
+    text-align: center;
+}
+
+/* Section 1 - Color Names */
+.section1 {
+    background-color: lightblue;
+    color: navy;
+    border: 3px solid blue;
+}
+
+.section1 h2 {
+    color: red;
+}
+
+.section1 p {
+    color: green;
+}
+
+/* Section 2 - HEX Colors */
+.section2 {
+    background-color: #E6E6FA;
+    color: #333333;
+    border: 3px solid #800080;
+}
+
+.section2 h2 {
+    color: #FF4500;
+}
+
+/* Section 3 - RGB Colors */
+.section3 {
+    background-color: rgb(220, 255, 220);
+    color: rgb(0, 80, 0);
+    border: 3px solid rgb(0, 128, 0);
+}
+
+.section3 h2 {
+    color: rgb(255, 0, 0);
+}
+
+/* Section 4 - RGBA Colors */
+.section4 {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: rgb(100, 0, 0);
+    border: 3px solid rgba(255, 0, 0, 0.7);
+}
+
+.section4 h2 {
+    color: rgba(200, 0, 0, 1);
+}
+
+/* Section 5 - HSL Colors */
+.section5 {
+    background-color: hsl(200, 100%, 90%);
+    color: hsl(220, 100%, 25%);
+    border: 3px solid hsl(210, 100%, 40%);
+}
+
+.section5 h2 {
+    color: hsl(120, 100%, 30%);
+}
+
+/* Section 6 - HSLA Colors */
+.section6 {
+    background-color: hsla(120, 100%, 50%, 0.2);
+    color: hsl(120, 100%, 20%);
+    border: 3px solid hsla(120, 100%, 30%, 0.7);
+}
+
+.section6 h2 {
+    color: hsla(240, 100%, 50%, 1);
+}
+
+/* Footer */
+footer {
+    background-color: #102f56;
+    color: white;
+    text-align: center;
+}

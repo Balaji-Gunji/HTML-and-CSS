@@ -1,0 +1,76 @@
+/* Main page */
+body {
+    background-color: #E5F5F2;
+    color: #263238;
+    font-family: Arial, sans-serif;
+}
+
+/* Main title */
+h1 {
+    color: white;
+    background-color: #168F91;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #555555;
+}
+
+/* Other headings */
+h2 {
+    color: #168F91;
+}
+
+h3 {
+    color: #E68A36;
+}
+
+h4 {
+    color: #D17B35;
+}
+
+h5 {
+    color: #269B91;
+}
+
+h6 {
+    color: #A66B42;
+}
+
+/* Paragraph */
+p {
+    color: #354B4B;
+    background-color: #FFFDF5;
+    padding: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Special heading */
+.heading {
+    color: #126F70;
+    background-color: #FCE5B5;
+    padding: 10px;
+}
+
+/* Preformatted text */
+pre {
+    color: white;
+    background-color: #168F91;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* Horizontal line */
+hr {
+    border: 2px solid #F0B94D;
+}
+
+/* Images */
+img {
+    border: 4px solid #E9B85C;
+}
+
+/* Video */
+iframe {
+    border: 4px solid #168F91;
+}

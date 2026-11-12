@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.10000coders.in/">
+        <label>Request For Leave</label>
+        <br>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="firstName" placeholder="First Name" required pattern="[a-zA-Z]{}"
+            title="Enter Invalid Name">
+        <input type="text" id="name" name="lastName" placeholder="Last Name" required pattern="[a-zA-Z]{}"
+            title="Enter Invalid Name">
+
+        <br>
+        <br>
+        <label for="id">Employee ID</label>
+        <input type="text" id="id" required pattern="[a-zA-Z0-9]{}">
+        <br>
+        <br>
+        <label for="mail">E_Mail</label>
+        <input type="email" id="mail" required>
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" required placeholder="+91" pattern="\+[0-9]{1,3}">
+        <input type="text" id="phone" required pattern="[6-9][0-9]{9}" title="Please Enter valid phone number!">
+        <br>
+        <br>
+        <label for="position">Position</label>
+        <input type="text" id="position" required pattern="[a-zA-Z\s]+">
+        <br>
+        <br>
+        <label for="manager">Manager</label>
+        <input type="text" id="manager" required>
+        <br>
+        <br>
+        <label for="manageremail">Manager Email</label>
+        <input type="text" id="manageremail">
+        <br>
+        <br>
+        <label>Details of Leave</label>
+        <br>
+        <br>
+        <label>Leave request for</label>
+        <input type="radio" id="day" name="leave" required>
+        <label for="day">Days</label>
+        <input type="radio" id="hour" name="leave" required>
+        <label for="hour">Hours</label>
+        <br>
+        <br>
+        <label for="start">Leave Start</label>
+        <input type="date" id="start" required>
+        <br>
+        <br>
+        <label for="end">Leave End</label>
+        <input type="date" id="end">
+        <br>
+        <br>
+        <label>Leave Type</label>
+        <input type="radio" id="vacation" name="ltype">
+        <label for="vacation">Vacation</label>
+        <input type="radio" id="sick" name="ltype">
+        <label for="sick">Sick</label>
+
+        <input type="radio" id="quitting" name="ltype">
+        <label for="quitting">Quitting</label>
+
+        <input type="radio" id="other" name="ltype">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <label for="comm">Comments</label>
+        <input type="text" id="comm">
+        <br>
+        <br>
+        <button>Request Leave</button>
+    </form>
+</body>
+
+</html>

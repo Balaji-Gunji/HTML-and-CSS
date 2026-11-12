@@ -1,0 +1,120 @@
+/* Body */
+body {
+    background-color: lightgray;
+    color: black;
+    direction: ltr;
+}
+
+/* College Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 3px black;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+/* Navigation */
+nav {
+    background-color: steelblue;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+    background-image: url("C:\\Users\\Lenovo\\OneDrive\\Desktop\\105\\css tasks\\city img.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+    line-height: 2;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* About Section */
+.about {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 2;
+    word-spacing: 4px;
+}
+
+.about h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Courses Section */
+.courses {
+    background-color: white;
+    color: navy;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.courses h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px gray;
+}
+
+/* Admission Section */
+.admission {
+    background-color: lightgreen;
+    color: darkgreen;
+    text-align: center;
+    line-height: 2;
+    word-spacing: 4px;
+}
+
+.admission h2 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* Contact Section */
+.contact {
+    background-color: lightyellow;
+    color: darkblue;
+    text-align: center;
+    line-height: 2;
+    direction: ltr;
+}
+
+.contact h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2;
+}
